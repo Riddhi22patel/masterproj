@@ -1,0 +1,161 @@
+<DOCTYPE html>
+ <html>
+
+    <head>
+        <title>Welcome to Feedback Syestem</title>
+        <link rel="stylesheet" href="styles.css">
+    
+    </head>
+    
+    <body>
+        <div class="containor">
+            <div class="navigation">
+                <div class="left-side">
+                    <div class="nav-link active-nav-link ">
+                        <a href="home.html"> HOME </a>
+                    </div>
+                    <div class="nav-link">
+                        <a href="about.html"> ABOUT </a>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="nav-link">
+                        <a href="addfeedback.html"> ADD FEEDBACK </a>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="content">
+                <div class="portfolio-items">
+    
+    
+                    <div class="portfolio-item">
+                        <div class="portfolio-img-backgroung" style="background-image:url(scetimg/10.jpeg)"></div>
+                        <div class="img-text">
+                            <div class="logo">
+                                <img src="scetimg/1.jpeg">
+    
+                            </div>
+                            <div class="subtitle">
+                                College management is good enough for student as they are responsible for the
+                                student to build their career
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-img-backgroung" style="background-image:url(scetimg/10.jpeg)"></div>
+                        <div class="img-text">
+                            <div class="logo">
+                                <img src="scetimg/2.jpeg " alt="">
+    
+                            </div>
+                            <div class="subtitle">
+                                Campus architecture is one one the best feature of SCET College.
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-img-backgroung" style="background-image:url(scetimg/10.jpeg)"></div>
+                        <div class="img-text">
+                            <div class="logo">
+                                <img src="scetimg/3.jpeg" alt="">
+    
+                            </div>
+                            <div class="subtitle">
+                                Positive: There are lots of fields for learning here. Much activities are there to
+                                refreshment.
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-img-backgroung" style="background-image:url(scetimg/10.jpeg)"></div>
+                        <div class="img-text">
+                            <div class="logo">
+                                <img src="scetimg/4.jpeg" alt="">
+    
+                            </div>
+                            <div class="subtitle">
+                                Socially life is much better. Many events including cultural, technical, sports, etc
+                                different events are celebrated.
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-img-backgroung" style="background-image:url(scetimg/10.jpeg)"></div>
+                        <div class="img-text">
+                            <div class="logo">
+                                <img src="scetimg/5.jpeg" alt="">
+    
+                            </div>
+                            <div class="subtitle">
+                                The canteen in college campus which is best and there rates are also
+                                normal.
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-img-backgroung" style="background-image:url(scetimg/10.jpeg)"></div>
+                        <div class="img-text">
+                            <div class="logo">
+                                <img src="scetimg/6.jpeg" alt="">
+    
+                            </div>
+                            <div class="subtitle">
+                                The quality and method of teaching are good at Sarvajanik College of Engineering and
+                                Technology.
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+    
+    
+    
+    </body>
+    <script>
+        const portfolioItems = document.querySelectorAll('.portfolio-item')
+
+        portfolioItems.forEach(portfolioItem => {
+            portfolioItem.addEventListener('mouseover', () => {
+
+                portfolioItem.childNodes[1].classList.add('img-dark');
+
+            })
+
+            portfolioItem.addEventListener('mousout', () => {
+
+                portfolioItem.childNodes[1].classList.remove('img-dark');
+
+            })
+
+        })
+
+
+
+
+
+    </script>
+    
+    
+    </html>

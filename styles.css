@@ -60,22 +60,24 @@ border-bottom: 1px solid black;
  grid-template-columns: 1fr 1fr 1fr ;
 
 }
+
 .portfolio-item {
     position: relative;
 }
-.portfolio-img-background{
+
+.portfolio-img-backgroung {
 height: 350px;
 width: 100%;
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 
-
 }
 
+
 .img-text {
-position: relative;
-top: -1;
+position: absolute;
+top: 0;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -99,7 +101,7 @@ padding-right: 1px;
 }
 .img-dark {
     transition: 1s;
-    filter: brightness(5%);
+    filter: brightness(10%);
 }
 /*About */
 .two-column {
@@ -120,19 +122,20 @@ color: teal;
 
 }
 /*feedback*/
-.box {
+.part1 {
     display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin: 0px;
+    height: 300;
+    width: 100%;
 	
 }
-.part2-img-background{
-    height: 350px;
+.box{
+    margin: 0;
+    height: fit-content;
     width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+   align-items: center;
       }
 
 /*login*/
@@ -151,5 +154,3 @@ color: teal;
 	margin: 0px;
 
 }
-  
- 

@@ -1,0 +1,23 @@
+{
+  "name": "masterproj",
+  "version": "1.0.0",
+  "description": "packet.json",
+  "main": "resp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riddhi22patel/masterproj.git"
+  },
+  "keywords": [
+    "feedback"
+    
+  ],
+  "author": "team  patelriddhi25522@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riddhi22patel/masterproj/issues"
+  },
+  "homepage": "https://github.com/Riddhi22patel/masterproj#readme"
+}

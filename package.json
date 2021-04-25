@@ -2,7 +2,7 @@
   "name": "masterproj",
   "version": "1.0.0",
   "description": "packet.json",
-  "main": "resp.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,12 +12,18 @@
   },
   "keywords": [
     "feedback"
-    
   ],
   "author": "team  patelriddhi25522@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Riddhi22patel/masterproj/issues"
   },
-  "homepage": "https://github.com/Riddhi22patel/masterproj#readme"
+  "homepage": "https://github.com/Riddhi22patel/masterproj#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {}
 }

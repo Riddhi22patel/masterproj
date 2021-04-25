@@ -1,11 +1,13 @@
 part2 = document.querySelector('.part2')
 part2 = document.querySelector('.part2')
+review =document.querySelector('review')
 
 
 
 
 
-part2.addEventlistner('click', ()=>{
+review.addEventlistner('click', ()=>{
+    alert('Review submitted')
 
 
 

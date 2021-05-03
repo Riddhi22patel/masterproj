@@ -90,7 +90,8 @@ padding-right: 1px;
 }
 .logo {
 
-    width: 100%;
+    width: 300;
+    height: 280;
     margin-bottom: 0px;
     display: flex;
 }

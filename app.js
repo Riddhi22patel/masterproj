@@ -11,8 +11,8 @@ router.get("/",function(req,res){
   res.sendFile(path.join(__dirname,"/"));
   //__dirname : It will resolve to your project folder.
 });
-app.get('/about',function (req,res){
-    res.sendFile(publicPath + '/about');
+app.get('/index',function (req,res){
+    res.sendFile(publicPath + '/index');
 });
 
 app.get('/home',function(req,res){
